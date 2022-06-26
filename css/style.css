@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 .parallax {
 	width: 100%;
 	height: 100vh;
@@ -9,7 +14,7 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	box-sizing: border-box;
 }
 .blue{
@@ -122,7 +127,7 @@ span{
 	transform: translateY(-50%);
 }
 .type {
-	font-family: monospace;
+	font-family: 'Space Mono';
 	color:#0000;
 	background:
 	linear-gradient(-90deg,#ffffff 5px,#0000 0) 10px 0,
