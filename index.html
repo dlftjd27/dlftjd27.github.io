@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JIS Portfolio</title>
+		<!----css 가져오기---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!----fade---->
+	<link rel="stylesheet" href="aos-by-red.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+		<!----아이콘 가져오는거 ---->
+	<link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+
+	
+	<!----menu box Section start---->
+	<div class="menu-box">
+		<nav>
+			<div class="mainlogo">
+				<h2>JIS</h2>
+				<h2>JIS</h2>
+			</div>
+			<ul>
+				<li><a href="#main">Intro</a></li>
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#skill">Skill</a></li>
+				<li><a href="#category">project</a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</ul>
+		</nav>
+	</div>
+	<!----contant start---->
+	<div class="scroll-b">
+		<!----main Section start---->
+		<section id="main" class="main_s">
+			<div class="parallax main">
+				<div class="content">
+					<span class="type" style="--n:95">
+						#include &lt;stdio.h&gt;<br>
+						int main(void)<br>
+						{<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;printf("I\'m Jin Il Sung, a developer.");<br>
+						&nbsp;&nbsp;&nbsp;&nbsp;return 0;<br>
+						}<br>
+					</span>
+				</div>
+			</div>
+		</section>
+
+		<!----About section start---->
+		<section id="about" class="about_s">
+			<div class="parallax about">
+				<div class="about_container" >
+					<img src="img/half.png">
+							<div class="about-text">
+								<h2>진일성 (Jin Il Seong)</h2>
+								<h5>생년월일 : 98.08.27
+								<h5>군산대학교 </h5>
+								<br>
+								<h5>전공 : 컴퓨터정보통신공학부 </h5>
+								<br>
+								<h5>phone : 010-4390-1xxx </h5>
+								<h5>e_mail : dlftjd27@kunsan.ac.kr </h5>
+						</div>
+				</div>
+			</div>
+		</section>
+
+		<!----video project section start---->
+		<section class="project_s">
+			<div class="parallaxparallax project">
+				<video autoplay loop muted play-inline class="project-video">
+					<source src="img/sanpero.mp4" type="video/mp4">
+				</video>
+				<div class="project-box">
+					<div class="project-card">
+						<p>Tenacity</p>
+						<hr class="line"/>
+						<h5> 집념을 가지고 목표를 완성 하는 개발자 입니다. </h5>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!----ai section start---->
+		<section id="skill" class="skill_s">
+			<div class="parallax skill">
+				<div class="c_title">
+					<h2>Skill</h2>
+				</div>
+				<div class="skill-box">
+					<div class="skill-card">
+						<img src="img/c++.png" class="skill-image">
+					</div>
+					<div class="skill-card">
+						<img src="img/java.svg" class="skill-image">
+					</div>
+					<div class="skill-card">
+						<img src="img/HTML.png" class="skill-image">
+					</div>
+					<div class="skill-card">
+						<img src="img/css.png" class="skill-image">
+					</div>
+					<div class="skill-card">
+						<img src="img/python.svg" class="skill-image">
+					</div>
+					<div class="skill-card">
+						<img src="img/unreal_negative.png" class="skill-image">
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<!----category section start---->
+		<section id="category" class="category_s">
+			<div class="parallax category">
+				<div class="c_title">
+					<h2>Project</h2>
+				</div>
+				<div class="category-box">
+					<div class="category-card">
+						<i class="fas fa-gamepad"></i>
+						<h5>Game</h5>
+
+						<div class="category-c">
+							<p>- 언리얼</p><br>
+							<p>- 포스트 프로세싱</p><br>
+							<p>- 라이팅</p><br>
+							<p>- UI</p><br>
+							<p style="text-align: center;">
+								<a class="button" href="#game">Read More</a>
+							</p>
+						</div>
+					</div>
+					<div class="category-card">
+						<i class="fas fa-robot"></i>
+						<h5>AI</h5>
+						<div class="category-c">
+							<p>- CNN</p><br>
+							<p>- 코랩</p><br>
+							<p>- 강화학습</p><br>
+							<p>&nbsp;</p><br>
+							<p style="text-align: center;">
+								<a class="button" href="#ai">Read More</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!----game section start---->
+		<section id="game" class="game_s">
+			<div class="parallax game">
+				<div class="game-box">
+					<div class="game-card">
+						<h5>Sanpero(산페로)</h5>
+						<div class="game-content">
+							<img src="img/sanperoimage.png" class="game-image">
+							<div class="game-c">
+								<p>- 친구의 졸업 작품으로 시작한 프로젝트입니다. 이전 까지 혼자하던 프로젝트와 다르게 총 5명 (개발자 3명, 디자이너&기회자 1명, 뮤지션 1명,)인 팀으로 제가 맡은 개발은 주로 포스트 프로세싱을 사용한 이펙트 효과 그리고 라이팅을 사용한 비쥬얼 변화, UI에 기능 부여를 주로 작업 하였습니다.</p><br>
+								<p>- 이 프로젝트는 저에게 있어 팀프로젝트를 할때 마주해야할 마음 가짐 그리고 혼자가 아닌 팀원들과 같이 함으로서 코드에 대한 설명과 코드에 대한 가속성 그리고 코드 정리의 중요성을 느낄 수 있는 좋은 경험이였습니다.</p><br>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!----ai section start---->
+		<section id="ai" class="ai_s">
+			<div class="parallax ai">
+				<div class="game-box">
+					<div class="game-card">
+						<h5>AI</h5>
+						<div class="game-content">
+							<img src="img/AI.png" class="game-image">
+							<div class="game-c">
+								<p>- 요즘 트렌드인 인공지능의 모델의 알고리즘중 이미지 처리에서 중요한 CNN 과 자율주행 학습에서 사용하는 강화 학습 이라는 알고리즘 두개를 학습 하였습니다.</p><br>
+								<p>- CNN 알고리즘의 중심에 있는 합성곱을 확인 하기 위해 필터의 가중치를 추출하여 파이썬을 통해 합성곱 모델을 똑같기 구현 하여 실제 모델의 결과와 구현 하여 얻은 결과를 비교하여 합성곱을 확인 해봤습니다.</p><br>
+								<p>- Gym API를 활용하여 카트폴을 학습 하여 봤습니다.</p>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!----Contact me section start---->
+		<section id="contact" class="contact_s">
+			<div class="parallax contact">
+				<footer>
+					<p>JIN IL SEONG</p>
+					<p>this is jis Portfolio</p>
+					<div class="social">
+						<a href="https://www.facebook.com/profile.php?id=100005092211126"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.instagram.com/j_il_seong/"><i class="fab fa-instagram"></i></a>
+						<a href="https://github.com/dlftjd27"><i class="fab fa-github"></i></a>
+					</div>
+					<p class="end">CopyRight By Tahmid Ahmed</p>
+				</footer>
+			</div>
+		</section>
+
+	</div>
+
+
+</body>
+</html>
